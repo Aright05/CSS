@@ -1,0 +1,40 @@
+/* h1 {
+    color:green;
+}
+p {
+    color:blue;   
+}
+button {
+    color:rgb(108, 7, 7)
+    background-color: aquamarine;
+}
+body {
+    background-color: #03f4f0;
+    } */
+/* *{
+    color:blue
+} */
+div{
+    background-color: blue;
+}
+h1{
+    color:green;
+    text-align: center;
+    text-decoration: red wavy underline;
+}
+p{
+    text-align: center;
+}
+#one{
+    font-family:Arial
+    font-size: 35px;
+    line-height : 30px;
+}
+
+#two{
+    font-family: system-ui
+}
+
+#three{
+    font-size: 10px;
+}

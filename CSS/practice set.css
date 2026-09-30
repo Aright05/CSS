@@ -1,0 +1,99 @@
+#navbar {
+    height: 60px;
+    width: 1500px;
+    background-color: black;
+}
+
+#two{
+    background-color: #f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    color: white;
+ }
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+#content{
+    height: 800px;
+
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+@media(max-width: 300px){
+    #box1{
+        background-color: green;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    #box1{
+        background-color: green;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+    #box1{
+        background-color: red;
+    }
+}
+
+@media(max-width: 600px){
+    #box1{
+        background-color: blue;
+    }
+}
+
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-top-color: #4ECDC4 ;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#box2{
+    border: 10px solid black;
+
+
+}
